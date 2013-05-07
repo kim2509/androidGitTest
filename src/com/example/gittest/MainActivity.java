@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		WebView myWebView = (WebView) findViewById(R.id.webview);
+		//myWebView.loadUrl("http://www.gmarket.co.kr");
 		myWebView.loadUrl("http://www.gmarket.co.kr");
 		WebSettings webSettings = myWebView.getSettings();
 		webSettings.setJavaScriptEnabled(true);
